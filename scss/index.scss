@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+#main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .table-row, .table-header {
     display: flex;
     flex-direction: row;
-    margin: 1rem auto;
+    margin: 0.3rem auto;
 }
 
 .table-item{
@@ -40,7 +46,7 @@
     justify-content: center;
   
     button {
-        margin: 0 0.5rem;
+        margin: 0.5rem 0.5rem;
     }
 }
 
