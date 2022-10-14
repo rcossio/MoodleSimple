@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.table-row, .table-header {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto;
+}
+
+.table-item{
+    margin: 0 0.5rem;
+    border: 1;
+}
+
+.unit {
+    width: 5rem;
+}
+
+.section {
+    width: 5rem;
+}
+
+.url {
+    width: 10rem;
+}
+
+.title {
+    width: 10rem;
+}
+
+.icon {
+    width: 7rem;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    button {
+        margin: 0 0.5rem;
+    }
+}
+
+#copy-button {
+    background-color: rgb(53, 255, 63);
+    padding: 0 0.5rem;
+    text-align: center;
+
+    &:hover {
+        background-color: rgb(39, 187, 46);
+    }
+}
+.action-button {
+    min-width: 4rem;
+    padding: 5pt;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0pt;
+    box-shadow: 1px 1px 3px rgb(80, 80, 80);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de Botones</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Creación de Botones</h1>
+    </header>
+    <main id="main-section">
+        <section class="table-header">
+            <h5 class="table-item unit">Unidad</h5>
+            <h5 class="table-item section">Sección</h5>
+            <h5 class="table-item url">URL</h5>
+            <h5 class="table-item title">Título</h5>
+            <h5 class="table-item icon">Ícono</h5>
+        </section>
+        <section class="table-row">
+            <datalist id="sections">
+                <option> Prácticas </option>
+                <option> Apuntes </option>
+                <option> Videos </option>
+            </datalist>
+            <input class="table-item unit" type="number"/>
+            <input class="table-item section" type="text" list="sections"/>
+            <input class="table-item url" type="text"/>
+            <input class="table-item title" type="text"/>
+            <select class="table-item icon">
+                <option value="URL">URL</option>
+                <option value="YouTube">YouTube</option>
+                <option value="PDF">PDF</option>
+                <option value="Geogebra">Geogebra</option>
+                <option value="Vibby">Vibby</option>
+                <option value="Pagina">Página</option>
+                <option value="Gdocs">Gdocs</option>
+                <option value="Busqueda">Búsqueda</option>
+            </select> 
+        </section>
+        <section class="button-section">
+            <button class="action-button" id="add-button">+</button>
+            <button class="action-button" id="copy-button">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <div id="accordion">
+            <div>
+                <a href="#collapse-1-3" data-toggle="collapse" class="collapsed">
+                    <div class="alert alert-secondary rounded">
+                        <h6 class="text-dark m-0">Videos ▼</h6>
+                    </div>
+                </a>
+                <div id="collapse-1-3" class="mt-1 ml-2 mb-3 pl-1 collapse">
+                    <div class="mb-1"><a href="https://qoodle.uvq.edu.ar/mod/url/view.php?id=927441"><img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/24/YouTube-icon.png" width="24" height="24"> Elementos de una matriz (8min)</a></div>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
