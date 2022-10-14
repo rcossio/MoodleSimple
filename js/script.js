@@ -1,4 +1,3 @@
-/* Me quedé en la linea 73, makeString() */
 
 loadBtnEvents();
 
