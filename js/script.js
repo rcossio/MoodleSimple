@@ -106,7 +106,7 @@ function makeString(){
             let title=values[3];
             let icon=urlIcon(values[4]);
             if (section === values[1]){
-                itemString += `<div class="mb-1"><a href="${url}"><img width="24" height="24" src="${icon}"> ${title}</a></div>`
+                itemString += `<div class="mb-1"><a href="${url}" target="_blank" rel="noopener noreferrer"><img width="24" height="24" src="${icon}"> ${title}</a></div>`
             }
         });
         sectionString += itemString
